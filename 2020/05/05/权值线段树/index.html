@@ -752,7 +752,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p><del>此题水的暴力也能过</del></p>
-<h2 id="动态开点"><a href="#动态开点" class="headerlink" title="动态开点"></a>动态开点</h2><p>普通线段树一般要开四倍的空间，当数据过大时内存肯定不够，<del>所以就出现了动态开点，</del>因为普通线段树很多节点我们根本用不上，所以当我们需要的时候再去开个节点，用多少开多少，只需要多开两个数组存储每个节点左儿子和右儿子的root，当前需要的节点没有开的时候按顺序一个个开就好了，<del>其他和普通线段树如出一辙，本萌新也不赘述</del></p>
+<h2 id="动态开点"><a href="#动态开点" class="headerlink" title="动态开点"></a>动态开点</h2><p>普通线段树一般要开四倍的空间，当数据过大时内存肯定不够，因为普通线段树很多节点我们根本用不上，所以当我们需要的时候再去开个节点，用多少开多少，只需要多开两个数组存储每个节点左儿子和右儿子的root，当前需要的节点没有开的时候按顺序一个个开就好了，<del>其他和普通线段树如出一辙，本萌新也不赘述</del></p>
 <h3 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h3><p><del>再随便贴个逆序对,此题方法很多</del></p>
 <p><a href="https://codeforces.com/contest/1042/problem/D" target="_blank" rel="noopener">CF 1042D</a></p>
 <ol>
